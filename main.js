@@ -5,7 +5,7 @@ import {
   SkyWayRoom,
   SkyWayStreamFactory,
   uuidV4
-} from '@skyway-sdk/room';
+} from './node_modules/@skyway-sdk/room';
 
 const token = new SkyWayAuthToken({
   jti: uuidV4(),
